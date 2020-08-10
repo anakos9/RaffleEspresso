@@ -1,9 +1,9 @@
 class EmailClient
-  include TestClient
+  # include TestClient
 
-  def initialize
-    @client = client
-  end
+  # def initialize
+  #   @client = client
+  # end
 
   # class << self
 
@@ -11,8 +11,9 @@ class EmailClient
 
   puts "Please enter your name"
   name = gets.chomp
-  @client = TestClient.new
+  # @client = TestClient.new
   puts "Hello, #{name}! I'm Ruby!"
-  p "CLient talk ->", @client.speak
-
+  # p "CLient talk ->", @client.speak
+  p "Writting to a new file"
+  File.write("new--log.txt", "Name from input: #{name}")
 end

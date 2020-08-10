@@ -23,6 +23,9 @@ gem 'jbuilder', '~> 2.7'
 # gem 'bcrypt', '~> 3.1.7'
 # Ruby Mail Gem
 gem 'mail', '~> 2.6', '>= 2.6.4'
+# Ruby CSV Parsing Gem
+gem 'csv'
+# Ruby Text file parsing Gem
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
