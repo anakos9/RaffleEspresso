@@ -1,5 +1,5 @@
 class EmailClient
-  require TestClient
+  include TestClient
 
   def initialize
     @client = client
