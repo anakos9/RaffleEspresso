@@ -1,9 +1,9 @@
 class EmailClient
+  require TestClient
 
-  require InputHandler
-  # def initialize
-  #   @client = client
-  # end
+  def initialize
+    @client = client
+  end
 
   # class << self
 
@@ -11,6 +11,8 @@ class EmailClient
 
   puts "Please enter your name"
   name = gets.chomp
+  @client = TestClient.new
   puts "Hello, #{name}! I'm Ruby!"
+  p "CLient talk ->", @client.speak
 
 end
