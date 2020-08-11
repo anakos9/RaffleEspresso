@@ -1,3 +1,0 @@
-class InputHandler
-  
-end
