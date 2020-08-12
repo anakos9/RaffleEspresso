@@ -9,7 +9,7 @@ require 'mail'
 
 file_name = InputService.get_file_name_input
 
-recipient_email = InputService.get_recipient_name
+# recipient_email = InputService.get_recipient_name
 
 p "File_name to s", file_name.to_s
 
@@ -46,7 +46,7 @@ csv_lines.each do |line|
 
   mail = Mail.new do
     from     "#{email}"
-    to       "#{recipient_email}"
+    to       "alex@rentgrata.com"
     subject  "Raffle Email Test #{count}"
     body     "Test content ##{count}"
     #add_file :filename => 'somefile.png', :content => File.read('/somefile.png')
