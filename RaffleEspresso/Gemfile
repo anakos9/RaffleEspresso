@@ -27,6 +27,10 @@ gem 'mail', '~> 2.6', '>= 2.6.4'
 gem 'csv'
 # Ruby xlsx file parsing Gem
 gem 'xsv'
+# Mail builder
+gem 'simple_mail_builder'
+# Net SMTP Gem
+gem 'net-smtp'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'

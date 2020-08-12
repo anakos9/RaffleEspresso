@@ -99,6 +99,7 @@ GEM
     mini_portile2 (2.4.0)
     minitest (5.14.1)
     msgpack (1.3.3)
+    net-smtp (0.1.0)
     nio4r (2.5.2)
     nokogiri (1.10.10)
       mini_portile2 (~> 2.4.0)
@@ -157,6 +158,7 @@ GEM
     selenium-webdriver (3.142.7)
       childprocess (>= 0.5, < 4.0)
       rubyzip (>= 1.2.2)
+    simple_mail_builder (0.1.2)
     spring (2.1.0)
     spring-watcher-listen (2.0.1)
       listen (>= 2.7, < 4.0)
@@ -211,11 +213,13 @@ DEPENDENCIES
   jbuilder (~> 2.7)
   listen (~> 3.2)
   mail (~> 2.6, >= 2.6.4)
+  net-smtp
   puma (~> 4.1)
   rails (~> 6.0.3, >= 6.0.3.2)
   redis (~> 4.0)
   sass-rails (>= 6)
   selenium-webdriver
+  simple_mail_builder
   spring
   spring-watcher-listen (~> 2.0.0)
   sqlite3 (~> 1.4)
