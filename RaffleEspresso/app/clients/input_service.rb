@@ -16,14 +16,15 @@ class InputService
     if line
       email_domain = line.compact[0].gsub(/.+@([^.]+).+/, '\1')
       mail_details = {
-        first_name:   line.compact[3],
-        last_name:    line.compact[4],
-        street_and_number: line.compact[5],
-        zip_code:     line.compact[6],
-        city:         line.compact[7],
-        size:         line.compact[8],
-        phone_number: line.compact[9],
-        item_name:    line.compact[10],
+        subject:      line.compact[3],
+        first_name:   line.compact[4],
+        last_name:    line.compact[5],
+        street_and_number: line.compact[6],
+        zip_code:     line.compact[7],
+        city:         line.compact[8],
+        size:         line.compact[9],
+        phone_number: line.compact[10],
+        item_name:    line.compact[11],
         from_domain:  email_domain
       }
       mail_details
