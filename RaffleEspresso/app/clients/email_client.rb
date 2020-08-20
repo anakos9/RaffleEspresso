@@ -29,7 +29,7 @@
                 body body
             end
 
-            p "\nSent message. From: #{from_address} To: #{to_address} \nMessage body: \n#{body}\n"
+            p "\nSent message. From: #{from_address} To: #{to_address} \nMessage body: \n#{body}"
 
             return true
 

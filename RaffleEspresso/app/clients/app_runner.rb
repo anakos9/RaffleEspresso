@@ -30,15 +30,15 @@ end
 
 count = 1
 csv_lines.each do |line|
-  p "line", line
+  p "Line ##{count}", line
   email_from = line.compact[0]
   email_domain = email_from.gsub(/.+@([^.]+).+/, '\1')
   email_pass = line.compact[1]
   p "Domain is gmail" if email_domain == "gmail"
   p "Domain is outlook" if email_domain == "outlook"
 
-  p "Entry ##{count} ->"
-  p "Sending to #{recipient_email} from #{email_from}...\n"
+  p "Entry ##{count}"
+  p "Sending to #{recipient_email} from #{email_from}..."
   p "Waiting to send..." if count > 1
 
   sleep 25
@@ -46,5 +46,5 @@ csv_lines.each do |line|
   count = count + 1 if EmailClient.new(recipient_email, email_from, email_pass, "Test email", "Testing email send from app", email_domain)
 end
 
-p "\nEmail batch completed!"
+p "Email batch completed!"
 p "Total successful entries: #{count}"
