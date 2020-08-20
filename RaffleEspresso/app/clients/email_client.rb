@@ -6,11 +6,20 @@
   
   class EmailClient
     def initialize(to_address, from_address, email_pass, subject, body, email_domain)
+        
+        case email_domain
+        when "gmail"
+          p "Email domain is #{email_domain}"
+          domain_address = "smtp.gmail.com"
+        when "outlook"
+          p "Email domain is #{email_domain}"
+          domain_address = "smtp.office365.com"
+        end
 
         begin
             OpenSSL::SSL::SSLContext::DEFAULT_PARAMS
             options = {
-                :address              => "smtp.gmail.com",
+                :address              => domain_address,
                 :port                 => "25",
                 :user_name            => from_address,
                 :password             => email_pass,

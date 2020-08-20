@@ -1,51 +1,11 @@
-email,first_name,last_name,full_address,zipp,city,size,phonenumber,item name,add1,add2
-,Markus,Romano,Boinod 5,2314,La Sagne,9,4.95167E+11,Nke SB Bearbrick,,
-,Paul,Melancon,Aebnit 9,3702,Hondrich,10,4.91478E+11,Nke SB Bearbrick,,
-,Leo,Wollenberg,Route de Morlens 101,1674,Morlens,9,4.9769E+11,Nke SB Bearbrick,,
-,Gabriel,Hauff,Chinnguet 98,3775,Lenk,7,4.95067E+11,Nke SB Bearbrick,,
-,Hugo,Kayser,Ers Curtins 77,7530,Zernez,6,4.95335E+11,Nke SB Bearbrick,,
-,Jonas,Merritt,Moosaffoltern 751,3256,Rapperswil,8.5,4.97025E+11,Nke SB Bearbrick,,
-,Valentin,Walker,Via Roncaglia 22,6883,Novazzano,8,4.91461E+11,Nke SB Bearbrick,,
-,Joram,Chacon,Berghof 24,5506,Mägenwil,11,4.92729E+11,Nke SB Bearbrick,,
-,Damian,Meier,Waagtalstrasse 126,8842,Unteriberg,5,4.98011E+11,Nke SB Bearbrick,,
-,Philipp,Klein,Chräbsenbachweg 124,8955,Oetwil an der Limmat,4.5,4.93611E+11,Nke SB Bearbrick,,
-,Victor,Simonsen,Haggenstrasse 3,9413,Oberegg,9,4.97261E+11,Nke SB Bearbrick,,
-,Oskar,Gersten,Champs-Crétin 3,1427,Bonvillars,10,4.96565E+11,Nke SB Bearbrick,,
-,Leon,Michaud,Obergross 5,8841,Gross SZ,9,4.93587E+11,Nke SB Bearbrick,,
-,Danilo,Ward,Eichholzstrasse 5,3027,Bern,7,4.90542E+11,Nke SB Bearbrick,,
-,Finn,Lamarre,Chemin de la Senoge 2,1114,Colombier,6,4.97023E+11,Nke SB Bearbrick,,
-,Jonathan,Mouet,Bolzbergstrasse 1,8840,Einsiedeln,8.5,4.91215E+11,Nke SB Bearbrick,,
-,Nils,Pittman,Wendenalp 1,3863,Gadmen,8,4.98252E+11,Nke SB Bearbrick,,
-,Noah,Rivigali,Pfaffensteinstrasse 76,8118,Pfaffhausen,11,4.93239E+11,Nke SB Bearbrick,,
-,Joel,Faluc,Klausrütistrasse 50,8414,Dorf,9,4.96154E+11,Nke SB Bearbrick,,
-,Aleix,Wube,Wilerstrasse 137,8514,Amlikon-Bissegg,10,4.99689E+11,Nke SB Bearbrick,,
-,Jimmy,Tuominen,route de la Crettaz 3,1955,Chamoson,9,4.91773E+11,Nke SB Bearbrick,,
-,Hector,Suciu,Monti di Paudo 17,6582,Pianezzo,7,4.96084E+11,Nke SB Bearbrick,,
-,Herman,Fortin,Niederbürerstrasse 30,9246,Niederbüren,6,4.99817E+11,Nke SB Bearbrick,,
-,Felix,Dellucci,Lenkstrasse 17,3772,Sankt Stephan,8.5,4.99959E+11,Nke SB Bearbrick,,
-,Kevin,Ricci,Dorfstrasse 94,8800,Thalwil,8,4.97215E+11,Nke SB Bearbrick,,
-,Samuel,Tanile,Pischestrasse 12,3999,Obergoms VS,11,4.91301E+11,Nke SB Bearbrick,,
-,Ben,Arnold,Moosgasse 1,3818,Grindelwald,9,4.98474E+11,Nke SB Bearbrick,,
-,Julian,Burkhardt,Klöntalerstrasse 102,8750,Glarus,10,4.94448E+11,Nke SB Bearbrick,,
-,Nelson,Vandorp,En Haut la Fin 1,2340,Le Noirmont,9,4.91869E+11,Nke SB Bearbrick,,
-,Marvin,Eberhardt,Vauban 1,1555,Villarzel,7,4.95456E+11,Nke SB Bearbrick,,
-,Luis,Bohm,Hauptstrasse 69,7445,Ausserferrera,6,4.99781E+11,Nke SB Bearbrick,,
-,Connor,Schulze,Gadmen 3,7260,Davos,8.5,4.92461E+11,Nke SB Bearbrick,,
-,Amphion,Pereira,Dana 5,6809,Medeglia,8,4.98399E+11,Nke SB Bearbrick,,
-,Pius,Gerber,Vogelsangstrasse 8,6205,Eich,11,4.92285E+11,Nke SB Bearbrick,,
-,Lois,Preston,Buschlenweg 55,4245,Kleinlützel,9,4.90547E+11,Nke SB Bearbrick,,
-,Valentino,Marsden,Alte Bernstrasse 3,5603,Staufen,10,4.9037E+11,Nke SB Bearbrick,,
-,Gian,Gerber,Zelgstrasse 8,8590,Romanshorn,9,4.95267E+11,Nke SB Bearbrick,,
-,Luis,Eichmann,Aretshaldenstrasse 57,8607,Seegräben,7,4.90599E+11,Nke SB Bearbrick,,
-,Mika,Mueller,Route des Mayens 44,3963,Crans-Montana,6,4.96175E+11,Nke SB Bearbrick,,
-,Jannik,Nandor,Vers chez Burquin 1,1346,Les Bioux,8.5,4.91536E+11,Nke SB Bearbrick,,
-,Kristy,Villemson,Gemeindeweidstrasse 1,6222,Gunzwil,8,4.91971E+11,Nke SB Bearbrick,,
-,Arian,Bisaillon,Chemin du Grand-Clos 9,1728,Rossens,11,4.98386E+11,Nke SB Bearbrick,,
-,Henry,Ziegler,Allmend 2,6144,Zell,9,4.93665E+11,Nke SB Bearbrick,,
-,Daniel,Herring,Weiherhüsli 1082,5742,Kölliken,10,4.92856E+11,Nke SB Bearbrick,,
-,George,Palmer,Lussen 1945,9650,Nesslau-Krummenau,9,4.95872E+11,Nke SB Bearbrick,,
-,Emil,Sanders,Rue de Serroue 12,2207,Coffrane,7,4.95495E+11,Nke SB Bearbrick,,
-,Loukas,Dupont,La Maisonnette 268,1658,Rossinière,6,4.97048E+11,Nke SB Bearbrick,,
-,Ibrahim,Dowell,Chemin du Bois-Caran 15,1245,Collonge-Bellerive,8.5,4.94775E+11,Nke SB Bearbrick,,
-,Johannes,Frost,Obergschwend 3,6442,Gersau,8,4.98479E+11,Nke SB Bearbrick,,
-,Lennard,Ouye,Alte Kaiserstuhlerstrasse 3,8181,Höri,11,4.97302E+11,Nke SB Bearbrick,,
+Hexecutioner011@gmail.com,9znaan3A,Markus,Romano,Boinod 5,2314,La Sagne,9,4.95E+11,Nke SB Bearbrick
+Dorothyhahaj56@gmail.com,TR6rR2bD,Paul,Melancon,Aebnit 9,3702,Hondrich,10,4.91E+11,Nke SB Bearbrick
+Lolleydfer02@gmail.com,9HyZqfZL,Leo,Wollenberg,Route de Morlens 101,1674,Morlens,9,4.98E+11,Nke SB Bearbrick
+Alyssaziy@outlook.com,A5nIrzXBCL,Gabriel,Hauff,Chinnguet 98,3775,Lenk,7,4.95E+11,Nke SB Bearbrick
+Stefanie.Cainlfzv@outlook.com,KXogDdWGm9,Hugo,Kayser,Ers Curtins 77,7530,Zernez,6,4.95E+11,Nke SB Bearbrick
+ixdhBrooke.Pike@outlook.com,A5nIrzXBCL,Jonas,Merritt,Moosaffoltern 751,3256,Rapperswil,8.5,4.97E+11,Nke SB Bearbrick
+Bouthoornvuh@outlook.com,A5nIrzXBCL,Valentin,Walker,Via Roncaglia 22,6883,Novazzano,8,4.91E+11,Nke SB Bearbrick
+Linda.Jones94@outlook.com,WTzHKkxPRq,Joram,Chacon,Berghof 24,5506,Mägenwil,11,4.93E+11,Nke SB Bearbrick
+Martha.Wareyxu@outlook.com,KXogDdWGm9,Damian,Meier,Waagtalstrasse 126,8842,Unteriberg,5,4.98E+11,Nke SB Bearbrick
+dpmAdams@outlook.com,uiFROTnHy5,Philipp,Klein,Chräbsenbachweg 124,8955,Oetwil an der Limmat,4.5,4.94E+11,Nke SB Bearbrick
+Townsend43525@outlook.com,KXogDdWGm9,Victor,Simonsen,Haggenstrasse 3,9413,Oberegg,9,4.97E+11,Nke SB Bearbrick

@@ -23,11 +23,6 @@ CSV.foreach(file_name) do |row|
   csv_lines << row
 end
 
-# TODO
-# Section for:
-# proxy_port
-# proxy_address
-
 count = 1
 csv_lines.each do |line|
   p "Line ##{count}", line
