@@ -1,9 +1,11 @@
 require_relative 'file_service.rb'
 require_relative 'input_service.rb'
+require_relative 'email_client.rb'
 require 'csv'
 require 'net/smtp'
 require 'simple_mail_builder'
 require 'mail'
+require 'openssl'
 
 # FOR THIS TO WORK THE USER MUST TURN ON 'ALLOW LESS SECURE APPS IN GMAIL SETTINGS
 
@@ -20,48 +22,18 @@ CSV.foreach(file_name) do |row|
   csv_lines << row
 end
 
-p "Line - count", csv_lines.count
-p "Table readout from #{file_name}:"
-
-# count = 0
-
+count = 1
 csv_lines.each do |line|
   p "line", line
-  email = line.compact[0]
-  pass = line.compact[1]
-  p "Email ->", email
-  p "Pass ->", pass
+  email_2 = line.compact[0]
+  pass_2 = line.compact[1]
+  p "Entry #{count}:"
+  p "Sending to #{} from #{email_2}..."
+
+  p "Waiting to send..." if count > 1
+  sleep 25
+  EmailClient.new("alex@rentgrata.com", email_2, pass_2, "Test email", "Testing email send from app")
 end
 
-email_2 = "tontrongdung50176@gmail.com"
-pass_2 = "MANUtd7910!$@"
-
-p "Beginning Mail Send Attempt from #{email_2}"
-
-
-Mail.defaults do
-  delivery_method :smtp, { :address    => "smtp.gmail.com",
-                          :port       => 587,
-                          :user_name  => email_2,
-                          :password   => pass_2,
-                          :authentication => :plain,
-                          :enable_starttls_auto => true
-                        }
-end
-
-# count = count + 1
-
-p "Sending mail now..."
-
-mail = Mail.new do
-  from     "#{email_2}"
-  to       "#{recipient_email}"
-  subject  "Raffle Email Test"
-  body     "Test content"
-  #add_file :filename => 'somefile.png', :content => File.read('/somefile.png')
-end
-
-p "Mail successfully sent to #{email_2}!"
-p "Mail receipt:", mail
-
-mail.deliver!
+p "Email batch completed!"
+p "Total successful entries: #{}"
