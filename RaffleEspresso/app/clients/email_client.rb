@@ -5,6 +5,7 @@
   require 'openssl'
   
   class EmailClient
+    
     def initialize(to_address, from_address, email_pass, mail_content)
         
         item_name = mail_content[:item_name]
@@ -80,4 +81,5 @@
             return false
         end
     end
+
 end

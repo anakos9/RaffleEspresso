@@ -30,4 +30,5 @@ class InputService
       mail_details
     end
   end
+  
 end
