@@ -6,6 +6,7 @@ require 'net/smtp'
 require 'simple_mail_builder'
 require 'mail'
 require 'openssl'
+require ''
 
 # FOR THIS TO WORK THE USER MUST TURN ON 'ALLOW LESS SECURE APPS IN GMAIL SETTINGS
 
@@ -22,18 +23,27 @@ CSV.foreach(file_name) do |row|
   csv_lines << row
 end
 
+# TODO
+# Section for:
+# proxy_port
+# proxy_address
+
 count = 1
 csv_lines.each do |line|
   p "line", line
-  email_2 = line.compact[0]
-  pass_2 = line.compact[1]
-  p "Entry #{count}:"
-  p "Sending to #{} from #{email_2}..."
+  email_from = line.compact[0]
+  email_domain = email_from.gsub(/.+@([^.]+).+/, '\1')
+  p "Domain: #{email_domain}"
+  email_pass = line.compact[1]
 
+  p "Entry #{count}:"
+  p "Sending to #{} from #{email_from}..."
   p "Waiting to send..." if count > 1
+
   sleep 25
-  EmailClient.new("alex@rentgrata.com", email_2, pass_2, "Test email", "Testing email send from app")
+
+  count = count + 1 if EmailClient.new(recipient_email, email_from, email_pass, "Test email", "Testing email send from app")
 end
 
 p "Email batch completed!"
-p "Total successful entries: #{}"
+p "Total successful entries: #{count}"
