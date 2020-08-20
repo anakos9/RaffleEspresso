@@ -3,7 +3,7 @@ class FileService
   
 # s
 
-  def read_csv
+  def write_successful_entries
     # lines = []
     # CSV.foreach(file_name) do |row|
     #   p row
