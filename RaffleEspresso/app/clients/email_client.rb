@@ -9,18 +9,18 @@
         
         case email_domain
         when "gmail"
-          p "Email domain is #{email_domain}"
           domain_address = "smtp.gmail.com"
+          port = "25"
         when "outlook"
-          p "Email domain is #{email_domain}"
           domain_address = "smtp.office365.com"
+          port = "587"
         end
 
         begin
             OpenSSL::SSL::SSLContext::DEFAULT_PARAMS
             options = {
                 :address              => domain_address,
-                :port                 => "25",
+                :port                 => port,
                 :user_name            => from_address,
                 :password             => email_pass,
                 :authentication       => :login,
@@ -39,10 +39,11 @@
             end
 
             p "\nSent message. From: #{from_address} To: #{to_address} \nMessage body: \n#{body}"
-
+            
             return true
 
         rescue Exception => e
+            p "ERROR LINE 46???"
             puts e.to_s
             return false
         end
