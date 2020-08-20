@@ -36,7 +36,7 @@ csv_lines.each do |line|
   email_pass = line.compact[1]
   p "Domain is gmail" if email_domain == "gmail"
   p "Domain is outlook" if email_domain == "outlook"
-
+  p "Preparing entry..."
   p "Entry ##{count}"
   p "Sending to #{recipient_email} from #{email_from}..."
   p "Waiting to send..." if count > 1
