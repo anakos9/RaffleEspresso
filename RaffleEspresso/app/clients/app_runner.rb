@@ -38,7 +38,7 @@ csv_lines.each do |line|
   p "Domain is outlook" if email_domain == "outlook"
 
   p "Entry ##{count} ->"
-  p "Sending to #{} from #{email_from}..."
+  p "Sending to #{recipient_email} from #{email_from}...\n"
   p "Waiting to send..." if count > 1
 
   sleep 25
@@ -46,5 +46,5 @@ csv_lines.each do |line|
   count = count + 1 if EmailClient.new(recipient_email, email_from, email_pass, "Test email", "Testing email send from app", email_domain)
 end
 
-p "Email batch completed!"
+p "\nEmail batch completed!"
 p "Total successful entries: #{count}"

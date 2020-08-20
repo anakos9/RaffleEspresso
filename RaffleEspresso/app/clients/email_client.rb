@@ -29,7 +29,7 @@
                 body body
             end
 
-            puts("\nSent message. From: #{from_address} To: #{to_address} \nMessage body: \n#{body}")
+            p "\nSent message. From: #{from_address} To: #{to_address} \nMessage body: \n#{body}\n"
 
             return true
 
