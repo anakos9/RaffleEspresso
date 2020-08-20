@@ -11,6 +11,8 @@ require 'openssl'
 
 file_name = InputService.get_file_name_input
 
+puts "\n"
+
 csv_lines = []
 CSV.foreach(file_name) do |row|
   csv_lines << row

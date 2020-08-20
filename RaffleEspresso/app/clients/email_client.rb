@@ -5,7 +5,7 @@
   require 'openssl'
   
   class EmailClient
-    
+
     def initialize(to_address, from_address, email_pass, mail_content)
         
         item_name = mail_content[:item_name]
@@ -28,17 +28,7 @@
           port = "587"
         end
 
-        composed_body = "
-        #{item_name}
-        #{size}\n
-        #{first_name.capitalize} #{last_name.capitalize}
-        #{street_and_number}
-        #{city}
-        #{zip_code}
-        #{phone_number}
-        "
-
-        puts "Composed:", composed_body
+        composed_body = "#{item_name}\n#{size}\n\n#{first_name.capitalize} #{last_name.capitalize}\n#{street_and_number}\n#{city}\n#{zip_code}\n#{phone_number}"
 
         begin
             OpenSSL::SSL::SSLContext::DEFAULT_PARAMS
@@ -77,7 +67,7 @@
             return true
 
         rescue Exception => e
-            # puts e.to_s
+            puts e.to_s
             return false
         end
     end
