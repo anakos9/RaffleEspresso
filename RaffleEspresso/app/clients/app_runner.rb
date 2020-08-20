@@ -30,7 +30,6 @@ csv_lines.each do |line|
   p "First entry waiting to send..." if count == 1
   p "Waiting to send..." if count > 1
   sleep 25
-
   count = count + 1 if EmailClient.new(recipient_email, email_from, email_pass, "Test email", "Testing email send from app", email_domain)
 end
 
