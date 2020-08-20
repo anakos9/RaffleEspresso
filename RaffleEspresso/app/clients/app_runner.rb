@@ -34,6 +34,7 @@ csv_lines.each do |line|
   p "Preparing entry..."
   p "Entry ##{count}"
   p "Sending to #{recipient_email} from #{email_from}..."
+  
   p "Waiting to send..." if count > 1
 
   sleep 25
