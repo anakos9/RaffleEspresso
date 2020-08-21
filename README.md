@@ -1,8 +1,8 @@
 # RaffleEspresso Mac Setup Guide
 
 # For this to work correctly:
-# The User MUST sign into each of their emails and TURN ON 'ALLOW LESS SECURE APPS gmail account settings
-# Only required to do this once for each email
+  The User MUST sign into each of their emails and TURN ON 'ALLOW LESS SECURE APPS gmail account settings.
+  Only required to do this once for each email.
 
 Ruby on Rails
 
