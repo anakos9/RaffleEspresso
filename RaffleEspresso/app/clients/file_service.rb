@@ -1,16 +1,9 @@
 class FileService
 #   require 'csv'
-  
-# s
 
-  def write_successful_entries
-    # lines = []
-    # CSV.foreach(file_name) do |row|
-    #   p row
-    #   lines << row
-    # end
-    # return lines
-    p "Tesdt"
+  def successful_entries(s_array)
+    p "Test line 5 FileService"
+    File.write("log.txt", s_array.join("\n"), mode: "a")
   end
 
 end
