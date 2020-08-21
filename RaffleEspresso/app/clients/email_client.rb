@@ -1,4 +1,3 @@
-require_relative 'file_service.rb'
 require 'mail'
 require 'redis'
 require 'net/smtp'
@@ -20,16 +19,12 @@ class EmailClient
       phone_number = mail_content[:phone_number]
       email_domain = mail_content[:from_domain]
       
-      p "Email Domain: #{email_domain}"
-
       case email_domain
       when "gmail"
         domain_address = "smtp.gmail.com"
       when "outlook"
         domain_address = "smtp.office365.com"
       end
-
-      p "Domain Address: #{domain_address}"
 
       composed_body = "#{item_name}\n#{size}\n\n#{first_name.capitalize} #{last_name.capitalize}\n#{street_and_number}\n#{city}\n#{zip_code}\n#{phone_number}"
 

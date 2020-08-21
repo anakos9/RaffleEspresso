@@ -1,4 +1,3 @@
-require_relative 'file_service.rb'
 require_relative 'input_service.rb'
 require_relative 'email_client.rb'
 require 'csv'
@@ -25,18 +24,18 @@ csv_lines.each do |line|
   email_pass = line.compact[1]
   recipient_email = line.compact[2]
   mail_content = InputService.format_mail_hash_from_csv_row(line)
-  p "Entry ##{count}"
-  p "Preparing entry..."
-  p "Waiting to send..."
+  puts "Entry ##{count}"
+  puts "Preparing entry..."
+  puts "Waiting to send..."
   sleep 20
-  p "Processing email from #{email_from} to #{recipient_email}..."
+  puts "Processing email from #{email_from} to #{recipient_email}..."
   if EmailClient.new(recipient_email, email_from, email_pass, mail_content) != false
     count = count + 1
-    p "Email sent. Entry successful!"
+    puts "Email sent. Entry successful!"
   else
-    p "Entry failed."
+    puts "Entry failed."
   end
 end
 
-p "Email batch completed!"
-p "Total successful entries: #{count}"
+puts "\nEmail batch completed!"
+puts "Total successful entries: #{count}"
