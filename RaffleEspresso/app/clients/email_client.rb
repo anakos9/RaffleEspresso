@@ -69,8 +69,8 @@ class EmailClient
           return @result
 
       rescue Exception => e
+          # puts "#{e.to_s}"
           @result = "failure"
-          puts "#{e.to_s}"
           return @result
       end
   end

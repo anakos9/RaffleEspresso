@@ -44,7 +44,7 @@ csv_lines.each do |line|
     puts "Entry successful!\n"
   else
     if dummy_line
-      puts "Dummy email burned begininning entries...\n"
+      puts "Dummy email successfullyburned, begininning real entries...\n"
     else
       failure_count = failure_count + 1
       puts "Entry failed. Unable to login to email.\n"
