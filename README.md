@@ -1,5 +1,7 @@
 # RaffleEspresso Mac Setup Guide
 
+# FOR THIS TO WORK THE USER MUST TURN ON 'ALLOW LESS SECURE APPS IN GMAIL SETTINGS
+
 Ruby on Rails
 
 Ruby Version: '2.6.3'
