@@ -21,6 +21,7 @@ FileService.reset_previous_success
 success_count = 0
 failure_count = 0
 total_entry_count = -1
+
 csv_lines.each do |line|
   email_from = line.compact[0]
   email_domain = email_from.gsub(/.+@([^.]+).+/, '\1')
