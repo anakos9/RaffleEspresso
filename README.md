@@ -1,4 +1,4 @@
-# RaffleEspresso Setup Guide
+# RaffleEspresso Mac Setup Guide
 
 Ruby on Rails
 
