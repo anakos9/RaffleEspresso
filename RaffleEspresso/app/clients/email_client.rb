@@ -61,7 +61,7 @@ class EmailClient
               body composed_body
           end
 
-          puts "Sent message. \nFrom: #{from_address} To: #{to_address} \nMessage body: \n#{composed_body}" if File.write("successful_entries.txt", "#{from_address}.", mode: "a")
+          puts "Sent message. \nFrom: #{from_address} To: #{to_address} \nMessage body: \n#{composed_body}" if File.write("successful_entries.txt", "#{from_address}\n", mode: "a")
           return true
 
       rescue Exception => e
