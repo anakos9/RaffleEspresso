@@ -1,10 +1,10 @@
 # RaffleEspresso Mac Setup Guide
 
-# For this to work correctly:
+# For RaffleEspresso To Work Correctly:
   The User MUST sign into each of their emails and TURN ON 'ALLOW LESS SECURE APPS gmail account settings.
   Only required to do this once for each email.
 
-Ruby on Rails
+# Ruby on Rails Environment Set Up
 
 Ruby Version: '2.6.3'
 
