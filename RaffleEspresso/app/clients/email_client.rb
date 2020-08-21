@@ -5,9 +5,11 @@ require 'simple_mail_builder'
 require 'openssl'
 
 class EmailClient
+  attr_reader :result
 
   def initialize(to_address, from_address, email_pass, mail_content)
       
+      @result = 0
       item_name = mail_content[:item_name]
       subject = mail_content[:subject]
       first_name = mail_content[:first_name]
@@ -61,12 +63,14 @@ class EmailClient
               body composed_body
           end
 
-          puts "Sent message. \nFrom: #{from_address} To: #{to_address} \nMessage body: \n#{composed_body}" if File.write("successful_entries.txt", "#{from_address}\n", mode: "a")
-          return true
+          puts "Email delivered." if File.write("successful_entries.txt", "#{from_address}\n", mode: "a")
+          @result = "success"
+          return @result
 
       rescue Exception => e
-          puts e.to_s
-          return false
+          puts "#{e.to_s}\n"
+          @result = "failure"
+          return @result
       end
   end
 
