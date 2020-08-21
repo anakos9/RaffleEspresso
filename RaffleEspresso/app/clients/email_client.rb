@@ -1,3 +1,4 @@
+# require_relative 'file_service.rb'
 require 'mail'
 require 'redis'
 require 'net/smtp'
@@ -63,13 +64,13 @@ class EmailClient
               body composed_body
           end
 
-          puts "Email delivered." if File.write("successful_entries.txt", "#{from_address}\n", mode: "a")
+          puts "Email delivered." if FileService.write_successful_entries(from_address)
           @result = "success"
           return @result
 
       rescue Exception => e
-          puts "#{e.to_s}\n"
           @result = "failure"
+          puts "#{e.to_s}"
           return @result
       end
   end
