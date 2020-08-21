@@ -1,10 +1,11 @@
-﻿dummy_mailer@gmail.com,tHust3212d,espresso@latazza.net,SB Raffle,Paul,Melancon,Aebnit 9,3702,Hondrich,EU 43,769225301,Nke SB Bearbrick,,,,"DUMMY MAILER MUST ALWAYS BE FIRST LINE IN TEMPLATE, IT WILL BE IGNORED"
-Dorothyhahaj56@gmail.com,TR6rR2bD,espresso@latazza.net,SB Raffle,Paul,Melancon,Aebnit 9,3702,Hondrich,EU 43,769225301,Nke SB Bearbrick,,,,
-Lolleydfer02@gmail.com,9HyZqfZL,espresso@latazza.net,SB Raffle,Leo,Wollenberg,Route de Morlens 101,1674,Morlens,EU 39.5,767896931,Nke SB Bearbrick,,,,
-kempanthony108022@gmail.com,MANUtd7910!$@,espresso@latazza.net,SB Raffle,Gabriel,Hauff,Chinnguet 98,3775,Lenk,US 11,764006163,Nke SB Bearbrick,,,,
-italia945@gmail.com,MANUtd7910!$@,espresso@latazza.net,SB Raffle,Hugo,Kayser,Ers Curtins 77,7530,Zernez,US 5.5,760468152,Nke SB Bearbrick,,,,
-gomennasai1023@gmail.com,MANUtd7910!$@,espresso@latazza.net,SB Raffle,Valentin,Walker,Via Roncaglia 22,6883,Novazzano,EU 44,767456488,Nke SB Bearbrick,,,,
-tontrongdung50176@gmail.com,MANUtd7910!$@,espresso@latazza.net,SB Raffle,Joram,Chacon,Berghof 24,5506,M√§genwil,EU 43,769638647,Nke SB Bearbrick,,,,
-vibezmedia@gmail.com,MANUtd7910!$@,espresso@latazza.net,SB Raffle,Damian,Meier,Waagtalstrasse 126,8842,Unteriberg,EU 39.5,764252652,Nke SB Bearbrick,,,,
-toesrpurple@gmail.com,1234@1234aA,alex@rentgrata.com,SB Raffle,Philipp,Klein,Chr√§bsenbachweg 124,8955,Oetwil an der Limmat,US 11,766467213,Nke SB Bearbrick,,,,
-manolito081@gmail.com,crlphlbrabu,espresso@latazza.net,SB Raffle,Jonas,Merritt,Moosaffoltern 751,3256,Rapperswil,US 8,768260430,Nke SB Bearbrick,,,,
+﻿email,password,recipient,subject,first name,last name,street+number,zip,city,size,phone,item name,Dummy Mailer
+dummy_mailer@gmail.com,tHust3212d,espresso@latazza.net,SB Raffle,Paul,Melancon,Aebnit 9,3702,Hondrich,EU 43,769225301,Nke SB Bearbrick,TRUE
+Dorothyhahaj56@gmail.com,TR6rR2bD,espresso@latazza.net,SB Raffle,Paul,Melancon,Aebnit 9,3702,Hondrich,EU 43,769225301,Nke SB Bearbrick,FALSE
+Lolleydfer02@gmail.com,9HyZqfZL,espresso@latazza.net,SB Raffle,Leo,Wollenberg,Route de Morlens 101,1674,Morlens,EU 39.5,767896931,Nke SB Bearbrick,FALSE
+kempanthony108022@gmail.com,MANUtd7910!$@,espresso@latazza.net,SB Raffle,Gabriel,Hauff,Chinnguet 98,3775,Lenk,US 11,764006163,Nke SB Bearbrick,FALSE
+italia945@gmail.com,MANUtd7910!$@,espresso@latazza.net,SB Raffle,Hugo,Kayser,Ers Curtins 77,7530,Zernez,US 5.5,760468152,Nke SB Bearbrick,FALSE
+gomennasai1023@gmail.com,MANUtd7910!$@,espresso@latazza.net,SB Raffle,Valentin,Walker,Via Roncaglia 22,6883,Novazzano,EU 44,767456488,Nke SB Bearbrick,FALSE
+tontrongdung50176@gmail.com,MANUtd7910!$@,espresso@latazza.net,SB Raffle,Joram,Chacon,Berghof 24,5506,M√§genwil,EU 43,769638647,Nke SB Bearbrick,FALSE
+vibezmedia@gmail.com,MANUtd7910!$@,espresso@latazza.net,SB Raffle,Damian,Meier,Waagtalstrasse 126,8842,Unteriberg,EU 39.5,764252652,Nke SB Bearbrick,FALSE
+toesrpurple@gmail.com,1234@1234aA,alex@rentgrata.com,SB Raffle,Philipp,Klein,Chr√§bsenbachweg 124,8955,Oetwil an der Limmat,US 11,766467213,Nke SB Bearbrick,FALSE
+manolito081@gmail.com,crlphlbrabu,espresso@latazza.net,SB Raffle,Jonas,Merritt,Moosaffoltern 751,3256,Rapperswil,US 8,768260430,Nke SB Bearbrick,FALSE

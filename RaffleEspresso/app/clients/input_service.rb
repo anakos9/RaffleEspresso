@@ -13,7 +13,7 @@ class InputService
   end
 
   def self.format_and_print_results(file_name, success_count, failure_count, total_entry_count)
-    puts "\n\n"
+    puts "\n\n\n\n"
     puts "\n--------------------------------------------------------------------------------------\n"
     puts "Entries for #{file_name} completed!\n"
     puts "--------------------------------------------------------------------------------------\n"

@@ -16,6 +16,8 @@ CSV.foreach(file_name) do |row|
   csv_lines << row
 end
 
+csv_lines = csv_lines.drop(1)
+
 FileService.reset_previous_success
 
 success_count = 0
