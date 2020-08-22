@@ -7,8 +7,6 @@ require 'simple_mail_builder'
 require 'mail'
 require 'openssl'
 
-# FOR THIS TO WORK THE USER MUST TURN ON 'ALLOW LESS SECURE APPS IN GMAIL SETTINGS
-
 file_name = InputService.get_file_name_input
 
 csv_lines = []
