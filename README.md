@@ -1,4 +1,4 @@
-# RaffleEspresso Mac Setup Guide
+# RaffleEspresso Setup Guide
 
 # For RaffleEspresso To Work Correctly:
   The User MUST sign into each of their emails and TURN ON 'ALLOW LESS SECURE APPS gmail account settings.
@@ -6,7 +6,7 @@
 
 # Ruby on Rails Environment Set Up
 
-Ruby Version: '2.6.3'
+Ruby Version: '2.6.6'
 
 Rails Version: 6.0.3
 
@@ -14,7 +14,9 @@ $ brew install rbenv
 
 $ rbenv init
 
-$ rbenv install 2.6.3
+$ rbenv install 2.6.6
+
+$ rvm use 2.6.6
 
 
 Bundler
@@ -46,7 +48,7 @@ Run program
 
 - Once in folder (and rails s server is on)
 
-- Run command: ruby app_runner.rb 
+- Run command: create_raffle_entries.exe 
 
 - This will initialize the program and you can begin making entries!
 
